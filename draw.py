@@ -9,7 +9,7 @@ browser = webdriver.Firefox()
 
 browser.get(instagramUrl)
 html = browser.page_source
-time.sleep(10)
+time.sleep(15)
 
 soup = BeautifulSoup(html, 'html.parser')
 messages = soup.find_all("style-scope ytd-comment-renderer")
