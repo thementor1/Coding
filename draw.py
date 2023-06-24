@@ -21,5 +21,9 @@ for message in messages:
 for message in messages:
     print(message)
 
+
+for message in messages:
+    print(message)
+
 browser.close()
 
