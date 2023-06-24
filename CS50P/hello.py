@@ -1,3 +1,5 @@
-x = input("What is your name?")
+#Ask users name
+name = input("What is your name?")
 
-print("Hello,", (x))
+#Say hello to user
+print("Hello", (name))
