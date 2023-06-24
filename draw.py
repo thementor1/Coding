@@ -17,13 +17,5 @@ messages = soup.find_all("style-scope ytd-comment-renderer")
 for message in messages:
     print(message)
 
-
-for message in messages:
-    print(message)
-
-
-for message in messages:
-    print(message)
-
 browser.close()
 
