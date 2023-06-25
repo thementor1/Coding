@@ -1,5 +1,9 @@
-def hello(to):
+def main():
+    name = input("What is your name?: ")
+    hello(name)
+
+
+def hello(to="world"):
     print("hello,", to)
     
-name = input("What is your name?: ")
-hello(name)
+main()
