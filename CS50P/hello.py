@@ -1,8 +1,8 @@
 import time 
 #Ask users name
-name = input("What is your name? ")
+name = input("What is your name? ").strip().title()
 
-name = name.strip().capitalize()
+name = name
 
 #Say hello to user
 print("Hello and welcome,", name)
