@@ -9,7 +9,7 @@ browser = webdriver.Firefox()
 
 browser.get(ytLiveChatUrl)
 html = browser.page_source
-time.sleep(10)
+time.sleep(50)
 
 soup = BeautifulSoup(html, 'html.parser')
 messages = soup.find_all("style-scope ytd-comment-renderer")
